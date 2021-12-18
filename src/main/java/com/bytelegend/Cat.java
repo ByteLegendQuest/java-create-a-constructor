@@ -4,7 +4,7 @@ public class Cat {
     public String name;
 
     public Cat(String name){
-        return new Cat();
+        
     }
 
     public static void main(String[] args) {
