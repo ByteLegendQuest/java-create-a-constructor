@@ -12,4 +12,9 @@ public class Cat {
     public String toString() {
         return "Cat(" + name + ")";
     }
+
+    Cat(String inputname)
+    {
+        name = inputname;
+    }
 }
