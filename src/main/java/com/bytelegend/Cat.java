@@ -8,9 +8,9 @@ public class Cat {
         System.out.println(new Cat("White"));
     }
 
-    Cat(String name){
+    Cat(String Name){
 
-        this -> name = name;
+        name = Name;
 
     }
 
