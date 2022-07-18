@@ -8,7 +8,7 @@ public class Cat {
         System.out.println(new Cat("White"));
     }
 
-    public Cat(){
+    public Cat() {
 
     }
 
