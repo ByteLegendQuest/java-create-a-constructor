@@ -3,8 +3,8 @@ package com.bytelegend;
 public class Cat {
     public String name;
 
-    public Cat (String name){
-        
+    Cat (String name) {
+
     }
 
     public static void main(String[] args) {
