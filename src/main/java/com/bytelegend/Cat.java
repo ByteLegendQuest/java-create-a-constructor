@@ -7,7 +7,7 @@ public class Cat {
         System.out.println(new Cat("Black"));
         System.out.println(new Cat("White"));
     }
-    public void Cat(String name){
+    public Cat(String name){
         this.name = name;
     }
     @Override
