@@ -3,10 +3,10 @@ package com.bytelegend;
 public class Cat {
     public String name;
 
-    public static String Cat(String s)
+    public static Cat(String s)
     {
         name = s;
-        return toString(name);
+        toString(name);
     }
 
     public static void main(String[] args) {
