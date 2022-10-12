@@ -15,6 +15,6 @@ public class Cat {
 
     @Override
     public Cat(String n) {
-        name=n;
+        name = n;
     }
 }
