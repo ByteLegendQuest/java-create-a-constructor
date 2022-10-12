@@ -12,4 +12,11 @@ public class Cat {
     public String toString() {
         return "Cat(" + name + ")";
     }
+
+    @Override
+    public Cat Cat(String name) {
+        Cat c=new Cat();
+        c.name=name;
+        return c;
+    }
 }
