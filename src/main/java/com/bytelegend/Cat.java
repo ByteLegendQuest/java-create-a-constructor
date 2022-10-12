@@ -13,7 +13,6 @@ public class Cat {
         return "Cat(" + name + ")";
     }
 
-    @Override
     public Cat(String n) {
         name = n;
     }
