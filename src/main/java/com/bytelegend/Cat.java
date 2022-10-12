@@ -14,9 +14,7 @@ public class Cat {
     }
 
     @Override
-    public Cat Cat(String name) {
-        Cat c=new Cat();
-        c.name=name;
-        return c;
+    public Cat(String n) {
+        name=n;
     }
 }
