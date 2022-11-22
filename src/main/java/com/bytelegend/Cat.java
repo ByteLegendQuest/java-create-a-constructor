@@ -13,7 +13,7 @@ public class Cat {
         return "Cat(" + name + ")";
     }
     
-    Cat (String name) {
+    Cat(String name) {
 
     } 
 }
