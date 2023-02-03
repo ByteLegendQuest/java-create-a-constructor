@@ -8,8 +8,8 @@ public class Cat {
         System.out.println(new Cat("White"));
     }
     
-    public static Cat(String name) {
-        Cat.name = name;
+    public Cat(String name) {
+        this.name = name;
     }
 
     @Override
