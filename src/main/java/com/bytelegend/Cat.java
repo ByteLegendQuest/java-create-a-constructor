@@ -7,6 +7,10 @@ public class Cat {
         System.out.println(new Cat("Black"));
         System.out.println(new Cat("White"));
     }
+    
+    public static Cat(String name) {
+        Cat.name = name;
+    }
 
     @Override
     public String toString() {
