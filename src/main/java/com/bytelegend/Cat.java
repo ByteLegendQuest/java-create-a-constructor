@@ -7,11 +7,6 @@ public class Cat {
         this.name = name;
     }
 
-    public Cat(String name) {
-        Cat cat = new Cat();
-        cat.name = name;
-    }
-
     public static void main(String[] args) {
         System.out.println(new Cat("Black"));
         System.out.println(new Cat("White"));
