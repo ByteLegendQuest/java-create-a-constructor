@@ -9,7 +9,7 @@ public class Cat {
     }
 
     @Override
-    public String toString() {
+    public String toString(String name) {
         return "Cat(" + name + ")";
     }
 }
